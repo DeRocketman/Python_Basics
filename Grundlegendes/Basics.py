@@ -1,5 +1,5 @@
 # Shebang, oder auch Magicline genannt macht eine direkte Ausführung eines Python-Skripts unter Linux möglich
-# Der zweite ausdruck ist noch Besser geeignet, da sie vom tatsächlichen Installationsort von Python unabhängig ist
+# Der zweite ausdruck ist noch besser geeignet, da sie vom tatsächlichen Installationsort von Python unabhängig ist
 
 # !/usr/bin/python
 # !/usr/bin/env python
