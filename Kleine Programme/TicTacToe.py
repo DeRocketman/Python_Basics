@@ -51,9 +51,12 @@ class Board:
             return "O"
 
     def print_board(self):
-        print(" " + self.sign_to_printable(self.state[0]) + " | " + self.sign_to_printable(self.state[1]) + " | " + self.sign_to_printable(self.state[2]) + " \n" +
-              " " + self.sign_to_printable(self.state[3]) + " | " + self.sign_to_printable(self.state[4]) + " | " + self.sign_to_printable(self.state[5]) + " \n" +
-              " " + self.sign_to_printable(self.state[6]) + " | " + self.sign_to_printable(self.state[7]) + " | " + self.sign_to_printable(self.state[8]) + " \n")
+        print(" " + self.sign_to_printable(self.state[0]) + " | " + self.sign_to_printable(
+            self.state[1]) + " | " + self.sign_to_printable(self.state[2]) + " \n" +
+              " " + self.sign_to_printable(self.state[3]) + " | " + self.sign_to_printable(
+            self.state[4]) + " | " + self.sign_to_printable(self.state[5]) + " \n" +
+              " " + self.sign_to_printable(self.state[6]) + " | " + self.sign_to_printable(
+            self.state[7]) + " | " + self.sign_to_printable(self.state[8]) + " \n")
 
 
 class Player:
