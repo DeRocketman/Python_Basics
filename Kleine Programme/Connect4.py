@@ -1,4 +1,4 @@
-class Board:
+class Pioard:
     def __init__(self):
         self.state = [0, 0, 0, 0, 0, 0, 0,
                       0, 0, 0, 0, 0, 0, 0,
@@ -6,3 +6,4 @@ class Board:
                       0, 0, 0, 0, 0, 0, 0,
                       0, 0, 0, 0, 0, 0, 0,
                       0, 0, 0, 0, 0, 0, 0]
+
