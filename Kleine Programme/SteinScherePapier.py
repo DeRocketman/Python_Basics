@@ -4,7 +4,7 @@ import random
 class SteinScherePapier:
     def __init__(self):
         self.userChoice = 1
-        self.aiChoice = 1
+        self.aiChoice = 3
         self.userWins = 0
         self.aiWins = 0
         self.auswahl = {1: "Rock",
