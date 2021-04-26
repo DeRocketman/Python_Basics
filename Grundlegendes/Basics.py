@@ -17,7 +17,7 @@ zaehler = 0
 
 # Es folgt eine while Schleife mit Schleifenkopf und Schleifenrumpf bzw Schleifenkörper
 # Entscheidend ist die Einrückung.
-while versuch != geheimnis:
+while versuch == geheimnis:
     versuch = int(input("Raten Sie: "))
 
     if versuch < geheimnis:
